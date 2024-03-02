@@ -3,6 +3,7 @@ from scipy.fftpack import fft,ifft
 import matplotlib.pyplot as plt
 from matplotlib.pylab import mpl
  
+ 
 mpl.rcParams['font.sans-serif'] = ['SimHei']   #显示中文
 mpl.rcParams['axes.unicode_minus']=False       #显示负号
  
