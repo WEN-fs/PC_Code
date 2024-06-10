@@ -8,16 +8,16 @@ nltk.download('words')
 word_list = words.words()
 
 # 定义我们的特定位置和字母
-positions = {} 
+positions = {1:'e', 5:'d'} 
 
 # 特定位置不允许出现的字母
-avoid_at_positions = {0: 'c', 2: 't', 3: 'o', 5: 'e', 6: 'r'}
+avoid_at_positions = {}
 
 # 定义我们想要在单词中找到的其他字母
-other_letters = ['c', 'o', 't', 'e', 'r']
+other_letters = ['a', 'e', 'r', 'd']
 
 # 定义我们不希望在单词中出现的字母
-avoid_letters = ['a', 'b', 's', 'n', 'd', 'u', 'v']
+avoid_letters = []
 
 # 定义单词的期望长度
 word_length = 7
